@@ -9,7 +9,7 @@
 <script>
     export default {
         validate (data) {
-            console.log(data);
+            console.log('uid: ', data.params.uid);
             return data.params.uid === '1'
             // return true
         }
