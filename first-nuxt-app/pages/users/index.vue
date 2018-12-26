@@ -5,7 +5,7 @@
         <hr>
         <div class="input-group">
             <input class="form-control" v-model="val" type="text">
-            <button class="btn btn-primary">Load user</button>
+            <button class="btn btn-primary" @clicl="onInput">Load user</button>
         </div>
     </div>
 </template>
@@ -15,6 +15,11 @@
         data() {
             return {
                 val: ''
+            }
+        },
+        methods: {
+            onInput() {
+                this.val
             }
         }
     }

@@ -3,7 +3,6 @@
 
     <nav class="navbar alert-secondary">
       <div class="container" style="flex-direction: row">
-        <logo/>
         <nuxt-link to="/users">Users Link</nuxt-link>
         <nuxt-link to="/contact">Contact</nuxt-link>
       </div>
@@ -11,6 +10,7 @@
 
     <section class="container">
       <div>
+        <logo/>
         <h1 class="title">
           First Nuxt App
         </h1>
