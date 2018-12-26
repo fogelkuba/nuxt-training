@@ -13,6 +13,7 @@
             // return data.params.uid === '1'
             return /^\d+$/.test(data.params.uid)
             // return true
-        }
+        },
+        layout: 'default'
     }
 </script>
