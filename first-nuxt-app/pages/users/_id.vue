@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h2>Single user</h2>
-        <h2 class="muted"># {{ $route.params.id }}</h2>
+    <div class="container">
+        <h2>Hello user</h2>
+        <h3 class="muted"># {{ $route.params.id }}</h3>
         <a href="/users">Back to Users</a>
     </div>
 </template>

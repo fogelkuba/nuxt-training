@@ -1,7 +1,6 @@
 <template>
     <div class="container">
-        <h1>Contact</h1>
-        <a href="/">Home</a>
+        <h2>Contact</h2>
         <hr>
         <div>
             <strong>Contact with us:</strong>

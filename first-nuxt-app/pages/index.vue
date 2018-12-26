@@ -1,6 +1,8 @@
 <template>
 
     <section class="container">
+      <br>
+      <br>
       <div>
         <logo/>
         <h1 class="title">
