@@ -8,6 +8,7 @@
       <h2 class="subtitle">
         My funkadelic Nuxt.js project
       </h2>
+      <a href="/contact">Contact</a>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
