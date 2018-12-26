@@ -1,30 +1,34 @@
 <template>
-  <section class="container">
-    <nav>
+  <div>
+    <nav class="navbar">
+      <nuxt-link to="/users">Users Link</nuxt-link>
       <a href="/users">Users</a>
       <a href="/contact">Contact</a>
     </nav>
-    <div>
-      <logo/>
-      <h1 class="title">
-        First Nuxt App
-      </h1>
-      <h2 class="subtitle">
-        My funkadelic Nuxt.js project
-      </h2>
+    <section class="container">
 
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+      <div>
+        <logo/>
+        <h1 class="title">
+          First Nuxt App
+        </h1>
+        <h2 class="subtitle">
+          My funkadelic Nuxt.js project
+        </h2>
+
+        <div class="links">
+          <a
+                  href="https://nuxtjs.org/"
+                  target="_blank"
+                  class="button--green">Documentation</a>
+          <a
+                  href="https://github.com/nuxt/nuxt.js"
+                  target="_blank"
+                  class="button--grey">GitHub</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
