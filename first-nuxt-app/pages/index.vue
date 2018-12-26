@@ -3,9 +3,7 @@
     <nav class="navbar">
       <div class="container">
         <nuxt-link to="/users">Users Link</nuxt-link>
-        <!--<a href="/users">Users</a>-->
         <nuxt-link to="/contact">Contact</nuxt-link>
-        <!--<a href="/contact">Contact</a>-->
       </div>
     </nav>
 
