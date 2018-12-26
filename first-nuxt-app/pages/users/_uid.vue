@@ -5,3 +5,13 @@
         <a href="/users">Back to Users</a>
     </div>
 </template>
+
+<script>
+    export default {
+        validate (data) {
+            console.log(data);
+            return data.params.uid === '1'
+            // return true
+        }
+    }
+</script>
