@@ -1,13 +1,6 @@
 <template>
-    <h1>The users view:</h1>
+    <div class="container">
+        <h1>Users</h1>
+        <a href="/">Home</a>
+    </div>
 </template>
-
-<script>
-    export default {
-        name: "index.vue"
-    }
-</script>
-
-<style scoped>
-
-</style>

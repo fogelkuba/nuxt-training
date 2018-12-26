@@ -1,5 +1,9 @@
 <template>
   <section class="container">
+    <nav>
+      <a href="/users">Users</a>
+      <a href="/contact">Contact</a>
+    </nav>
     <div>
       <logo/>
       <h1 class="title">
@@ -8,7 +12,7 @@
       <h2 class="subtitle">
         My funkadelic Nuxt.js project
       </h2>
-      <a href="/contact">Contact</a>
+
       <div class="links">
         <a
           href="https://nuxtjs.org/"
