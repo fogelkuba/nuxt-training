@@ -1,12 +1,15 @@
 <template>
   <div>
     <nav class="navbar">
-      <nuxt-link to="/users">Users Link</nuxt-link>
-      <a href="/users">Users</a>
-      <a href="/contact">Contact</a>
+      <div class="container">
+        <nuxt-link to="/users">Users Link</nuxt-link>
+        <!--<a href="/users">Users</a>-->
+        <nuxt-link to="/contact">Contact</nuxt-link>
+        <!--<a href="/contact">Contact</a>-->
+      </div>
     </nav>
-    <section class="container">
 
+    <section class="container">
       <div>
         <logo/>
         <h1 class="title">
@@ -28,6 +31,7 @@
         </div>
       </div>
     </section>
+
   </div>
 </template>
 
