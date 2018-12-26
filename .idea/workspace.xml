@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1281dd77-fb22-499d-9f96-076e2b759e35" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/first-nuxt-app/pages/contact.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-nuxt-app/pages/users/_id.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-nuxt-app/pages/users/_uid.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/first-nuxt-app/pages/users/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-nuxt-app/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/first-nuxt-app/layouts/default.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-nuxt-app/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/first-nuxt-app/nuxt.config.js" afterDir="false" />
@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first-nuxt-app/pages/index.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first-nuxt-app/pages/users/_id.vue">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first-nuxt-app/pages/users/_uid.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -93,8 +93,8 @@
         <option value="$PROJECT_DIR$/first-nuxt-app/pages/users/index.vue" />
         <option value="$PROJECT_DIR$/first-nuxt-app/layouts/default.vue" />
         <option value="$PROJECT_DIR$/first-nuxt-app/pages/contact.vue" />
-        <option value="$PROJECT_DIR$/first-nuxt-app/pages/users/_id.vue" />
         <option value="$PROJECT_DIR$/first-nuxt-app/pages/index.vue" />
+        <option value="$PROJECT_DIR$/first-nuxt-app/pages/users/_id.vue" />
       </list>
     </option>
   </component>
@@ -193,12 +193,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545816125198</updated>
-      <workItem from="1545816126544" duration="4674000" />
+      <workItem from="1545816126544" duration="4909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4674000" />
+    <option name="totallyTimeSpent" value="4909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -272,17 +272,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first-nuxt-app/pages/users/_id.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first-nuxt-app/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first-nuxt-app/pages/users/_uid.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
