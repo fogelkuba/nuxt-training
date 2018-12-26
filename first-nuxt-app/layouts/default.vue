@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <nav class="navbar alert-secondary">
+    <nav class="navbar alert-secondary mb-4">
       <div class="container" style="flex-direction: row">
         <nuxt-link to="/">Home</nuxt-link>
         <nuxt-link to="/users">Users</nuxt-link>
