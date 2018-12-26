@@ -10,7 +10,8 @@
     export default {
         validate (data) {
             console.log('uid: ', data.params.uid);
-            return data.params.uid === '1'
+            // return data.params.uid === '1'
+            return /^\d+$/.test(data.params.uid)
             // return true
         }
     }
