@@ -4,8 +4,10 @@
         <a href="/">Home</a>
         <hr>
         <div class="input-group">
-            <input class="form-control" v-model="val" type="text">
-            <button class="btn btn-primary" @clicl="onInput">Load user</button>
+            <input name="userId" class="form-control" v-model="userId" type="text">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" @click="onInput">Load user</button>
+            </div>
         </div>
     </div>
 </template>
@@ -14,12 +16,12 @@
     export default {
         data() {
             return {
-                val: ''
+                userId: ''
             }
         },
         methods: {
             onInput() {
-                this.val
+                this.$router.push(`/users/${this.userId}`)
             }
         }
     }

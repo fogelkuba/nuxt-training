@@ -1,12 +1,4 @@
 <template>
-  <div>
-
-    <nav class="navbar alert-secondary">
-      <div class="container" style="flex-direction: row">
-        <nuxt-link to="/users">Users Link</nuxt-link>
-        <nuxt-link to="/contact">Contact</nuxt-link>
-      </div>
-    </nav>
 
     <section class="container">
       <div>
@@ -31,7 +23,6 @@
       </div>
     </section>
 
-  </div>
 </template>
 
 <script>

@@ -1,6 +1,16 @@
 <template>
   <div>
+
+    <nav class="navbar alert-secondary">
+      <div class="container" style="flex-direction: row">
+        <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/users">Users</nuxt-link>
+        <nuxt-link to="/contact">Contact</nuxt-link>
+      </div>
+    </nav>
+
     <nuxt/>
+
   </div>
 </template>
 
