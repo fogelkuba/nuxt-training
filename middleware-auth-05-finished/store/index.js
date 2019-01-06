@@ -47,7 +47,7 @@ const createStore = () => {
         };
         return this.$axios
           .$post(
-            "https://nuxt-blog.firebaseio.com/posts.json?auth=" +
+            "https://nuxt-test-e532a.firebaseio.com/posts.json?auth=" +
               vuexContext.state.token,
             createdPost
           )
@@ -59,7 +59,7 @@ const createStore = () => {
       editPost(vuexContext, editedPost) {
         return this.$axios
           .$put(
-            "https://nuxt-blog.firebaseio.com/posts/" +
+            "https://nuxt-test-e532a.firebaseio.com/posts/" +
               editedPost.id +
               ".json?auth=" +
               vuexContext.state.token,
